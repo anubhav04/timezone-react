@@ -46,3 +46,8 @@ export default () => (
   />
 );
 ```
+
+## Response
+```javascript
+{name: 'Asia/ Kolkata', label: 'Indian Standard Time', offset: '+5:30'}
+```
