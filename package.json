@@ -1,7 +1,7 @@
 {
   "name": "timezone-react",
-  "version": "1.0.3",
-  "description": "Time zone picker for ReactJs",
+  "version": "1.0.4",
+  "description": "Timezone picker for ReactJs",
   "main": "build/timezone-react.min.js",
   "scripts": {
     "build": "webpack",
@@ -51,12 +51,13 @@
     "input",
     "form",
     "field",
-    "timezone pciker",
-    "timezonepicker for reactjs",
+    "timezone picker",
+    "timezone picker for reactjs",
     "reactjs timezone picker",
     "react timezone picker",
     "reactjs timezone",
-    "react timizone"
+    "react timizone",
+    "timezone picker for react"
   ],
   "bugs": {
     "url": "https://github.com/anubhav04/timezone-react/issues"
