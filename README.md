@@ -33,7 +33,7 @@ Timezones are ~~stolen~~borrowed from Google Calendar.
 ## Example
 
 ```javascript
-import ReactTimezonePicker from 'react-timezone';
+import ReactTimezonePicker from 'timezone-react';
 
 export default () => (
   <ReactTimezonePicker

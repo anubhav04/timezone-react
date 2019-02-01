@@ -42,7 +42,7 @@ class ReactTimezonePicker extends React.Component {
   stringifyZone(zone, offset) {
     const ensure2Digits = num => (num > 9 ? `${num}` : `0${num}`);
 
-    return `(${offset}${zone.offset < 0 ? '-' : '+'}${ensure2Digits(Math.floor(Math.abs(zone.offset)))}:${ensure2Digits(Math.abs((zone.offset % 1) * 60))}) ${zone.label}`;
+    return `(${offset}${zone.offset}) ${zone.label}`;
   }
 
   timezones() {

@@ -4,7 +4,7 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'react-timezone.min.js',
+    filename: 'timezone-react.min.js',
     library: 'ReactTimezone',
     libraryTarget: 'umd',
   },
