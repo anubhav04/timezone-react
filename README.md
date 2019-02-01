@@ -33,10 +33,10 @@ Timezones are ~~stolen~~borrowed from Google Calendar.
 ## Example
 
 ```javascript
-import TimezonePicker from 'react-timezone';
+import ReactTimezonePicker from 'react-timezone';
 
 export default () => (
-  <TimezonePicker
+  <ReactTimezonePicker
     value="Asia/Yerevan"
     onChange={timezone => console.log('New Timezone Selected:', timezone)}
     inputProps={{

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import timezones from './timezones';
 
-class TimezonePicker extends React.Component {
+class ReactTimezonePicker extends React.Component {
   static propTypes = {
     value: PropTypes.string,
     offset: PropTypes.oneOf(['GMT', 'UTC']),
@@ -248,4 +248,4 @@ class TimezonePicker extends React.Component {
   }
 }
 
-export { TimezonePicker as default, timezones };
+export { ReactTimezonePicker as default, timezones };
