@@ -1,3 +1,6 @@
+## General
+As light as 7 Kb only, it does not hampers the build size of your application. Fully customisable, just clone the repository and start editing `src/index.js` according to your need.
+
 ## Installation
 
 ```bash
